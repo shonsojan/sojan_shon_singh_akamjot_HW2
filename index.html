@@ -15,41 +15,37 @@
     <script type="module" src="js/main.js"></script>
   </head>
   <body>
-    <div id="loader">
-      <img src="images/loading.gif" alt="Loader" />
-      <p>Loading... Please Wait</p>
-    </div>
 
     <div class="full-width-grid-con">
       <header class="col-span-full">
         <img src="images/valorant-logo.svg" alt="Valorant Logo" />
-        <h2>Valorant</h2>
+        <h2>Music</h2>
       </header>
     </div>
     <br /><br />
     <!-- Form -->
     <div class="grid-con">
       <div class="col-span-full m-col-start-3 m-col-end-11">
-        <form id="agentForm">
-          <h3>Add an Agent</h3>
+        <form id="musicForm">
+          <h3>Add an Music</h3>
           <label for="name">Name:</label>
-          <input type="text" id="agentName" />
+          <input type="text" id="musicName" />
 
-          <label for="abilities">Abilities:</label>
-          <textarea id="agentAbilities"></textarea>
+          <label for="artist">Artist:</label>
+          <textarea id="musicArtist"></textarea>
 
-          <label for="role">Role:</label>
-          <textarea id="agentRoles"></textarea>
-          <button class="button" type="submit">ADD AGENT</button>
+          <label for="release">Release Date:</label>
+          <textarea id="musicRelease"></textarea>
+          <button class="button" type="submit" onclick="addMusic()">ADD MUSIC</button>
         </form>
       </div>
     </div>
 
     <!-- Agent List -->
     <div class="grid-con">
-      <div class="col-span-full m-col-start-3 m-col-end-11" id="agentList">
-        <h3>Agents</h3>
-        <ul id="agents"></ul>
+      <div class="col-span-full m-col-start-3 m-col-end-11" id="musicList">
+        <h3>Music</h3>
+        <ul id="music"></ul>
       </div>
     </div>
   </body>

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-    <title>Valorant</title>
+    <title>MUSIC</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,10 +15,13 @@
     <script type="module" src="js/main.js"></script>
   </head>
   <body>
-
+    <div id="loader">
+      <img src="images/loading.gif" alt="Loader" />
+      <p>Loading... Please Wait</p>
+    </div>
     <div class="full-width-grid-con">
       <header class="col-span-full">
-        <img src="images/valorant-logo.svg" alt="Valorant Logo" />
+        <img src="images/logo.svg" alt="Music Logo" />
         <h2>Music</h2>
       </header>
     </div>
@@ -27,25 +30,31 @@
     <div class="grid-con">
       <div class="col-span-full m-col-start-3 m-col-end-11">
         <form id="musicForm">
-          <h3>Add an Music</h3>
+          <h3>Add Music</h3>
+
           <label for="name">Name:</label>
-          <input type="text" id="musicName" />
+          <input type="text" id="agentName" />
 
           <label for="artist">Artist:</label>
-          <textarea id="musicArtist"></textarea>
+          <input type="text" id="musicArtist" />
 
           <label for="release">Release Date:</label>
+
           <textarea id="musicRelease"></textarea>
           <button class="button" type="submit">ADD MUSIC</button>
+
+
         </form>
       </div>
     </div>
 
     <!-- Agent List -->
     <div class="grid-con">
-      <div class="col-span-full m-col-start-3 m-col-end-11" id="musicList">
+      <div class="col-span-full m-col-start-3 m-col-end-11" id="agentList">
         <h3>Music</h3>
+
         <ul id="musics"></ul>
+
       </div>
     </div>
   </body>

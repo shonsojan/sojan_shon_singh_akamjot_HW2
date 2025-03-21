@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    <title>Valorant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/grid.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <script type="module" src="js/main.js"></script>
+  </head>
+  <body>
+    <div id="loader">
+      <img src="images/loading.gif" alt="Loader" />
+      <p>Loading... Please Wait</p>
+    </div>
+
+    <div class="full-width-grid-con">
+      <header class="col-span-full">
+        <img src="images/valorant-logo.svg" alt="Valorant Logo" />
+        <h2>Valorant</h2>
+      </header>
+    </div>
+    <br /><br />
+    <!-- Form -->
+    <div class="grid-con">
+      <div class="col-span-full m-col-start-3 m-col-end-11">
+        <form id="agentForm">
+          <h3>Add an Agent</h3>
+          <label for="name">Name:</label>
+          <input type="text" id="agentName" />
+
+          <label for="abilities">Abilities:</label>
+          <textarea id="agentAbilities"></textarea>
+
+          <label for="role">Role:</label>
+          <textarea id="agentRoles"></textarea>
+          <button class="button" type="submit">ADD AGENT</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Agent List -->
+    <div class="grid-con">
+      <div class="col-span-full m-col-start-3 m-col-end-11" id="agentList">
+        <h3>Agents</h3>
+        <ul id="agents"></ul>
+      </div>
+    </div>
+  </body>
+</html>

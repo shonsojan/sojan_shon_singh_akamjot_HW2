@@ -1,4 +1,4 @@
-# 🎵 Music Collection Form
+# Music Collection Form 🎵 
 
 ## Project Overview 📌 
 This project is a web application that allows users to add music details, including the name, artist, and release date. It follows Object-Oriented Programming (OOP) principles in JavaScript, utilizes ES6 modules, and is bundled using Parcel.js. The interface is responsive and includes GreenSock enhancements for smooth animations.
@@ -9,16 +9,16 @@ This project is a web application that allows users to add music details, includ
 - 📱 **Responsive Design:** Works seamlessly on both desktop and mobile devices.
 - 🎨 **Modern UI:** Stylish and intuitive interface with smooth animations.
 
-## How to Use 🎶 ➕ 
-### Add a Song:
+## How to Use 🎶
+### ➕ Add a Song:
 1. Fill in the song name, artist, and release date.
 2. Click the "Add Music" button to save it.
 
-### View Songs:
+### 📜 View Songs:
 - All added songs will be displayed in a list below the form.
 - Each song entry shows its name, artist, and release date.
 
-### Clear Inputs:🧹 
+### 🧹 Clear Inputs:
 - After adding a song, the input fields will automatically clear so you can add another song immediately.
 
 ## Technologies Used 🛠️ 

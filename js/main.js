@@ -47,3 +47,23 @@ function renderMusics() {
 }
 
 renderMusics();
+
+window.addEventListener('DOMContentLoaded', () => {
+
+  const form = document.querySelectorAll('#musicForm input[type="submit"], #musicForm input[type="text"], #musicForm textarea');
+
+  form.forEach((form) => {
+    gsap.from(form, {
+      duration: 1,
+      x: 200,
+      autoAlpha: 0,
+      ease: 'power2.out',
+      scrollTrigger: {
+        trigger: form,
+        start: 'top 80%',
+        end: 'top 20%',
+        toggleActions: 'play none none none',
+      }
+    });
+  });
+});

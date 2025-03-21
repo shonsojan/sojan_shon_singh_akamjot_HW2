@@ -1,14 +1,14 @@
 # Music Collection Form 
 
-# 📑 Contents
-- [📌 Project Overview](#-project-overview)
-- [✨ Features](#-features)
-- [🎶 How to Use](#-how-to-use)
-  - [➕ Add a Song](#-add-a-song)
-  - [📜 View Songs](#-view-songs)
-  - [🧹 Clear Inputs](#-clear-inputs)
-- [🛠️ Technologies Used](#-technologies-used)
-- [📜 License](#-license)
+## 📑 Contents
+- [Project Overview](#-project-overview)
+- [Features](#-features)
+- [How to Use](#-how-to-use)
+  - [Add a Song](#-add-a-song)
+  - [View Songs](#-view-songs)
+  - [Clear Inputs](#-clear-inputs)
+- [Technologies Used](#-technologies-used)
+- [License](#-license)
 
 ## Project Overview 📌 
 This project is a web application that allows users to add music details, including the name, artist, and release date. It follows Object-Oriented Programming (OOP) principles in JavaScript, utilizes ES6 modules, and is bundled using Parcel.js. The interface is responsive and includes GreenSock enhancements for smooth animations.

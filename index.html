@@ -15,10 +15,7 @@
     <script type="module" src="js/main.js"></script>
   </head>
   <body>
-    <div id="loader">
-      <img src="images/loading.gif" alt="Loader" />
-      <p>Loading... Please Wait</p>
-    </div>
+
     <div class="full-width-grid-con">
       <header class="col-span-full">
         <img src="images/logo.svg" alt="Music Logo" />
@@ -33,13 +30,12 @@
           <h3>Add Music</h3>
 
           <label for="name">Name:</label>
-          <input type="text" id="agentName" />
+          <input type="text" id="musicName" />
 
           <label for="artist">Artist:</label>
           <input type="text" id="musicArtist" />
 
           <label for="release">Release Date:</label>
-
           <textarea id="musicRelease"></textarea>
           <button class="button" type="submit">ADD MUSIC</button>
 
@@ -50,7 +46,7 @@
 
     <!-- Agent List -->
     <div class="grid-con">
-      <div class="col-span-full m-col-start-3 m-col-end-11" id="agentList">
+      <div class="col-span-full m-col-start-3 m-col-end-11" id="musicList">
         <h3>Music</h3>
 
         <ul id="musics"></ul>

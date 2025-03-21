@@ -39,7 +39,7 @@ function renderMusics() {
     musicItem.appendChild(artistParagraph);
 
     const releaseParagraph = document.createElement('p');
-    releaseParagraph.textContent = 'Music Release: ' + music.releases;
+    releaseParagraph.textContent = 'Music Release: ' + music.release;
     musicItem.appendChild(releaseParagraph);
 
     musicsElement.appendChild(musicItem);

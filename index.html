@@ -39,10 +39,11 @@
           <input type="text" id="musicArtist" />
 
           <label for="release">Release Date:</label>
-          <input type="date" id="musicRelease" />
-          <button class="button" type="submit" onclick="addMusic()">
-            ADD MUSIC
-          </button>
+
+          <textarea id="musicRelease"></textarea>
+          <button class="button" type="submit">ADD MUSIC</button>
+
+
         </form>
       </div>
     </div>
@@ -51,7 +52,9 @@
     <div class="grid-con">
       <div class="col-span-full m-col-start-3 m-col-end-11" id="agentList">
         <h3>Music</h3>
-        <ul id="agents"></ul>
+
+        <ul id="musics"></ul>
+
       </div>
     </div>
   </body>

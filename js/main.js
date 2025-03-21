@@ -2,19 +2,23 @@ import { MusicBook } from './musicbook.js';
 
 const musicBook = new MusicBook();
 
-document.querySelector('#musicForm button').addEventListener('click', addMusic);
-function addMusic() {
+document.querySelector('#musicForm').addEventListener('submit', addMusic);
+
+function addMusic(event) {
+  event.preventDefault();  // Prevent form submission and page reload
+
   const name = document.querySelector('#musicName').value;
   const artist = document.querySelector('#musicArtist').value;
-  const releases = document.querySelector('#musicReleases').value;
+  const release = document.querySelector('#musicRelease').value;
 
-  musicBook.addMusic(name, artist, releases);
+  musicBook.addMusic(name, artist, release);
 
+  // Clear input fields
   document.querySelector('#musicName').value = '';
   document.querySelector('#musicArtist').value = '';
-  document.querySelector('#musicReleases').value = '';
+  document.querySelector('#musicRelease').value = '';
 
-  // Render Musics
+  // Render updated music list
   renderMusics();
 }
 

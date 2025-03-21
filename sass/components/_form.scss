@@ -4,7 +4,7 @@
 
   input {
     display: block;
-    border: solid 2px #e15b64;
+    border: solid 2px #b5e3ea;
     padding: 15px;
     width: 100%;
     margin-top: 10px;
@@ -15,22 +15,22 @@
     font-family: "Orbitron", sans-serif;
   }
 
-  textarea {
-    display: block;
-    border: solid 2px #e15b64;
-    padding: 20px;
-    width: 100%;
-    min-height: 80px;
-    margin: 10px 0 20px 0;
-    resize: none;
-    border-radius: 7px;
-    background-color: rgba(255, 255, 255, 0.416);
-    color: white;
-    font-family: "Orbitron", sans-serif;
-  }
+  // textarea {
+  //   display: block;
+  //   border: solid 2px #b5e3ea;
+  //   padding: 20px;
+  //   width: 100%;
+  //   min-height: 80px;
+  //   margin: 10px 0 20px 0;
+  //   resize: none;
+  //   border-radius: 7px;
+  //   background-color: rgba(255, 255, 255, 0.416);
+  //   color: white;
+  //   font-family: "Orbitron", sans-serif;
+  // }
 
   label {
-    color: whitesmoke;
+    color: #dff2f4;
     font-size: 20 px;
   }
 
@@ -40,7 +40,7 @@
     font-weight: 600;
     font-size: 35px;
     margin-bottom: 20px;
-    color: #e15b64;
+    color: #8ec5ce;
   }
 }
 
@@ -49,13 +49,13 @@
   margin-bottom: 20px;
   width: 150px;
   height: 50px;
-  background: #e15b64;
+  background: #337180;
   border-radius: 7px;
   transition: all 0.15s ease-out;
   border: none;
   cursor: pointer;
   font-size: 90%;
-  color: white;
+  color: #dff2f4;
   font-family: "Orbitron", sans-serif;
 }
 
